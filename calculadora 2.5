@@ -1,0 +1,24 @@
+
+resultado="numero1,numero2"
+
+numero1=int(input("o primeiro número: "))
+
+numero2=int(input("o segundo número: "))
+
+print("\n")
+
+sinal=input("seleciona  um dos sinais ( + - * / ): ")
+
+if sinal == '+':
+    resultado=numero1+numero2
+elif sinal == '-':
+    resultado=numero1-numero2
+elif sinal == '*':
+    resultado=numero1*numero2
+elif sinal == '/':
+    resultado=numero1/numero2
+
+
+print("Resultado:\n")
+print(numero1,sinal,numero2, " = ",resultado)
+
